@@ -220,6 +220,7 @@
 }
 .w209 {
 	width: 209px;
+	background-color: #f9f9f9;
 }
 .w329 {
 	width: 329px;
@@ -238,4 +239,45 @@
 }
 .tab_con_item {
 	border-bottom: 1px solid #ccc;
+}
+.tab_con_list {
+	overflow: hidden;
+	margin-bottom: 17px;
+}
+.tab_con_list li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	margin-left: 13px;
+}
+.box_bd li {
+	overflow: hidden;
+}
+.box_bd img {
+	transition: all .2s;
+}
+.box_bd img:hover {
+	margin-left: 8px;
+}
+.fixedtool {
+	position: fixed;
+	top: 200px;
+	left: 50%;
+	margin-left: -670px;
+	width: 66px;
+	background-color: #f9f9f9;
+}
+.fixedtool li {
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.fixedtool .current {
+	color: #fff;
+	background-color: #c81623;
 }
